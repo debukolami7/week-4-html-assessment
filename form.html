@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALT School Application Form</title>
+</head>
+
+<body id="top">
+
+    <header>
+        <h1>ALT School Application Form</h1>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a> |
+            <a href="form.html">Application Form</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Create an ALT School Account</h2>
+
+            <p>
+                Please complete the form below with your personal and
+                educational information.
+            </p>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <p>
+                        <label for="first-name">First Name:</label><br>
+                        <input type="text" id="first-name" name="first_name" required>
+                    </p>
+
+                    <p>
+                        <label for="last-name">Last Name:</label><br>
+                        <input type="text" id="last-name" name="last_name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label><br>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number:</label><br>
+                        <input type="tel" id="phone" name="phone" required>
+                    </p>
+
+                    <p>
+                        <label for="date-of-birth">
+                            Date of Birth:
+                        </label><br>
+
+                        <input type="date" id="date-of-birth" name="date_of_birth">
+                    </p>
+
+                    <p>
+                        <label for="gender">Gender:</label><br>
+
+                        <select id="gender" name="gender">
+                            <option value="">
+                                Select Gender
+                            </option>
+
+                            <option value="male">
+                                Male
+                            </option>
+
+                            <option value="female">
+                                Female
+                            </option>
+
+                            <option value="other">
+                                Other
+                            </option>
+                        </select>
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Education Information</legend>
+
+                    <p>
+                        <label for="education">
+                            Highest Level of Education:
+                        </label><br>
+
+                        <select id="education" name="education">
+
+                            <option value="">
+                                Select education level
+                            </option>
+
+                            <option value="secondary">
+                                Secondary School
+                            </option>
+
+                            <option value="ond">
+                                OND
+                            </option>
+
+                            <option value="hnd">
+                                HND
+                            </option>
+
+                            <option value="bsc">
+                                Bachelor's Degree
+                            </option>
+
+                            <option value="masters">
+                                Master's Degree
+                            </option>
+
+                            <option value="other">
+                                Other
+                            </option>
+
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="school">
+                            Name of School:
+                        </label><br>
+
+                        <input type="text" id="school" name="school">
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Program Information</legend>
+
+                    <p>
+                        <label for="school-of-study">
+                            School:
+                        </label><br>
+
+                        <select id="school-of-study" name="school_of_study">
+
+                            <option value="">
+                                Select School
+                            </option>
+
+                            <option value="engineering">
+                                School of Engineering
+                            </option>
+
+                            <option value="business">
+                                School of Business
+                            </option>
+
+                            <option value="creative">
+                                School of Creative Economy
+                            </option>
+
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="program">
+                            Program:
+                        </label><br>
+
+                        <select id="program" name="program">
+
+                            <option value="">
+                                Select Program
+                            </option>
+
+                            <option value="fullstack">
+                                AI-Powered Full-Stack Engineering
+                            </option>
+
+                            <option value="frontend">
+                                Frontend Engineering
+                            </option>
+
+                            <option value="backend">
+                                Backend Engineering
+                            </option>
+
+                            <option value="cloud">
+                                Cloud Engineering
+                            </option>
+
+                            <option value="cybersecurity">
+                                Cybersecurity
+                            </option>
+
+                        </select>
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Information</legend>
+
+                    <p>
+                        <label for="referral">
+                            How did you hear about ALT School?
+                        </label><br>
+
+                        <select id="referral" name="referral">
+
+                            <option value="">
+                                Select an option
+                            </option>
+
+                            <option value="social-media">
+                                Social Media
+                            </option>
+
+                            <option value="friend">
+                                Friend
+                            </option>
+
+                            <option value="family">
+                                Family
+                            </option>
+
+                            <option value="internet">
+                                Internet Search
+                            </option>
+
+                            <option value="other">
+                                Other
+                            </option>
+
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="message">
+                            Why do you want to join ALT School?
+                        </label><br>
+
+                        <textarea id="message" name="message" rows="6" cols="50"></textarea>
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Account Information</legend>
+
+                    <p>
+                        <label for="password">
+                            Password:
+                        </label><br>
+
+                        <input type="password" id="password" name="password" required>
+                    </p>
+
+                    <p>
+                        <label for="confirm-password">
+                            Confirm Password:
+                        </label><br>
+
+                        <input type="password" id="confirm-password" name="confirm_password" required>
+                    </p>
+
+                </fieldset>
+
+                <p>
+                    <button type="submit">
+                        Submit Application
+                    </button>
+                </p>
+
+            </form>
+
+        </section>
+
+        <p>
+            <a href="#top">Back to the top</a>
+        </p>
+
+    </main>
+
+    <footer>
+        <address>
+            Lagos, Nigeria
+        </address>
+
+        <p>
+            &copy; 2026 Arowoogun Oluwasegun Peter. All rights reserved.
+        </p>
+    </footer>
+
+</body>
+
+</html>
